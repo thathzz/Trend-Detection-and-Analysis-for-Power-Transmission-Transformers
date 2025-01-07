@@ -55,6 +55,7 @@ def correct_sampling_intervals(file_path: str, sampling_period: str = "6M", t_nu
 def advanced_trend_analysis(data: pd.DataFrame, gas: str, ref_col: str = 'ref') -> List[Dict]:
     """
     Custom algorithm incorporating domain-specific knowledge and physics for trend analysis.
+    This is not shared in public. 
 
     Parameters:
     - data (pd.DataFrame): The input data.
