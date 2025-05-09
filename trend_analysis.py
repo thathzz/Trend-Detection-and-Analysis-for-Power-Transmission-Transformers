@@ -55,6 +55,10 @@ def correct_sampling_intervals(file_path: str, sampling_period: str = "6M", t_nu
 def advanced_trend_analysis(data: pd.DataFrame, gas: str, ref_col: str = 'ref') -> List[Dict]:
     """
     Custom algorithm incorporating domain-specific knowledge and physics for trend analysis.
+<<<<<<< HEAD
+=======
+    This is not shared in public. 
+>>>>>>> 11eb585a87163e259ffd849856a9d04a3f1af8a9
 
     Parameters:
     - data (pd.DataFrame): The input data.
@@ -168,4 +172,8 @@ def plot_trends(data: pd.DataFrame, gas: Union[str, List[str]] = "All", t_number
                     plt.axhline(y=gas_thresholds[g], color='red', linestyle='--', label="Threshold")
 
                 plt.legend()
+<<<<<<< HEAD
                 plt.show()
+=======
+                plt.show()
+>>>>>>> 11eb585a87163e259ffd849856a9d04a3f1af8a9
